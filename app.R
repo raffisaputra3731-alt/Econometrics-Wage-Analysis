@@ -168,6 +168,7 @@ server <- function(input, output, session) {
   
   output$cor_plot_out <- renderPlot({
     req(data_reg())
+    cor_matrix <- cor(data_reg())
     corrplot(cor_matrix,method = "square",type = "upper",
              col = colorRampPalette(c("#EAF4FF", "#BFDFFF", "#7FB3FF"))(200),
              addCoef.col = "black",tl.col = "black",number.cex = 0.7)
