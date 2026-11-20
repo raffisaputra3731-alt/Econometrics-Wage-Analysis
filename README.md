@@ -71,3 +71,5 @@ This project focuses on applied econometric analysis, regression modeling, stati
 **Course:** Econometrics  
 **Programming Language:** R  
 **Application Framework:** R Shiny
+
+© 2025 Raffi Saputra | Econometrics: Wage Determinants Analysis
